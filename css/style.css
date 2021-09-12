@@ -1,0 +1,117 @@
+#cont-principal{
+    background: #72d7d3;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    transition: 5s;
+}
+#cont-principal .cuerpo{
+    padding-top: 180px;
+    position: relative;
+    z-index: 10;
+}
+
+#cont-principal .sombrero{
+    position: absolute;
+    top: 90px;
+    left: 228px;
+    transition: 3s;
+}
+
+#cont-principal .ear-left{
+    position: absolute;
+    top: 210px;
+    left: 170px;
+    z-index: -2;
+    transition: 3s
+    ;
+}
+
+#cont-principal .ear-right{
+    position: absolute;
+    top: 210px;
+    right: 170px;
+    z-index: -2;
+    transition: 3s;
+}
+
+#cont-principal .foot-left{
+    position: absolute;
+    top: 525px;
+    left: 200px;
+    z-index: -2;
+    transition: 3s;
+}
+
+#cont-principal .nariz{
+    position: absolute;
+    top: 298px;
+    left: 277px;
+    z-index: 12;
+    transition: 3s;
+}
+#cont-principal .ojoderecho{
+    position: absolute;
+    top: 234px;
+    left: 264px;
+    z-index: 11;
+}
+#cont-principal .ojoizquierdo{
+    position: absolute;
+    top: 234px;
+    right: 264px;
+    z-index: 11;
+    transition: 3s;
+}
+#cont-principal .foot-right{
+    position: absolute;
+    top: 525px;
+    right: 200px;
+    z-index: -2;
+}
+
+#cont-principal .mostacho{
+    position: absolute;
+    top: 430px;
+    right: 258px;
+    z-index: 11;
+    transition: .2s;
+}
+
+#cont-principal .cuerpo:hover .mostacho{
+    transform: rotate(10deg);
+}
+
+#cont-principal .cuerpo:hover .foot-left{
+    transform: scale(2);
+}
+#cont-principal .cuerpo:hover .sombrero{
+    transform: scale(1.5);
+}
+#cont-principal .cuerpo:hover .ear-left{
+    transform: translateX(30px);
+}
+
+#cont-principal .cuerpo:hover .ear-right{
+    transform: scale(2);
+}
+
+#cont-principal .cuerpo:hover .ojoderecho{
+    transform: scale(1.5);
+}
+
+#cont-principal .cuerpo:hover .ojoizquierdo{
+    transform: scale(0.5);
+}
+
+#cont-principal .cuerpo:hover .nariz{
+    transform: translateX(15px);
+}
+
+#cont-principal:hover {
+    background-color: black;
+    border-radius: 50%;
+}
+
